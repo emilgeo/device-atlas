@@ -60,9 +60,11 @@ This project consists of a **Node.js** backend, a **React (Vite) + Tailwind CSS*
 
 ### 🛠 Development Notes
 
-- Backend Development: Run `npm run dev` inside the `/server` directory.
+- Backend Development: Run `npm run dev` inside the `/server` directory. Make sure to add env variables similar to `.env.example`
 
-- Frontend Development: Run `npm run dev` inside the `/client` directory.
+- Running tests: Run `npm run test` inside the `/server` directory.
+
+- Frontend Development: Run `npm run dev` inside the `/client` directory. Make sure to add env variables similar to `.env.example`
 
 - You can modify `.env` files to customize environment variables.
 
