@@ -1,3 +1,6 @@
+# docker
+docker_db
+
 # node modules
 client/node_modules
 server/node_modules
