@@ -9,4 +9,8 @@ app.use(express.json());
 
 app.use('/api', apiRoutes);
 
+app.get('/health-check', (req, res) => {
+    res.status(200).json({});
+});
+
 module.exports = app;
